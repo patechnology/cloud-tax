@@ -1,29 +1,48 @@
 <!DOCTYPE html>
-<!--
-Theme: Keen - The Ultimate Bootstrap Admin Theme
-Author: KeenThemes
-Website: http://www.keenthemes.com/
-Contact: support@keenthemes.com
-Follow: www.twitter.com/keenthemes
-Dribbble: www.dribbble.com/keenthemes
-Like: www.facebook.com/keenthemes
-License: You must have a valid license purchased only from https://themes.getbootstrap.com/product/keen-the-ultimate-bootstrap-admin-theme/ in order to legally use the theme for your project.
--->
 <html lang="en">
 
 <head>
 	<meta charset="utf-8">
-	<title>Metronic | Angular Demo</title>
+	<title>ClouldTax</title>
 	<base href="/cloud-tax/">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/x-icon" href="./assets/media/logos/favicon.ico">
-	<link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto:300,400,500,600,700" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto:300,400,500,600,700"
+		rel="stylesheet">
+
+	<style>
+		.kt-splash-screen {
+			background-color: #f2f3f8;
+			position: absolute;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+			width: 100%;
+			z-index: 1000;
+		}
+
+		.kt-splash-screen img {
+			width: 235px;
+			margin-bottom: 30px;
+		}
+
+		.kt-splash-screen span {
+			margin-bottom: 30px;
+		}
+	</style>
 
 	<!-- For production, include the demo base style here -->
 	<!--<link id="demo" href="assets/demo/default/base/style.bundle.css" rel="stylesheet" >-->
 <link rel="stylesheet" href="styles.ee28ffeb23f4cda36281.css"></head>
 
-<body kt-root><script type="text/javascript" src="runtime.6ed8e47c1b9466555406.js"></script><script type="text/javascript" src="es2015-polyfills.2537243c10af42b25ef7.js" nomodule></script><script type="text/javascript" src="polyfills.92c9c54d513205338625.js"></script><script type="text/javascript" src="scripts.c10c2f925aa4560cddbb.js"></script><script type="text/javascript" src="main.eeb9d935e2f4a55741af.js"></script></body>
+<body kt-root>
+	<div class="kt-splash-screen">
+		<img src="./assets/media/logos/logo-blue.png" alt="Logo">
+		<mat-spinner diameter="40"></mat-spinner>
+	</div>
+<script type="text/javascript" src="runtime.6ed8e47c1b9466555406.js"></script><script type="text/javascript" src="es2015-polyfills.2537243c10af42b25ef7.js" nomodule></script><script type="text/javascript" src="polyfills.92c9c54d513205338625.js"></script><script type="text/javascript" src="scripts.c10c2f925aa4560cddbb.js"></script><script type="text/javascript" src="main.eb4d10fe5cd2fb18352e.js"></script></body>
 
 </html>
